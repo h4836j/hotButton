@@ -12,7 +12,7 @@
 * 创建的时候，首先要注意的就是 setClickBlock 里面的事情  我们看到的效果 都是手动设置的
 * 我们往里面添加 的时候 要注意调用 [- addViewToHotView:] 这个方法来添加
 
-``
+```
 //    HotView  * hotV =  [HotView hotViewWithFrame:CGRectMake(250, 400, 40, 40)];
 //    HotView  * hotV =  [HotView showHotViewInkeyWindowTopWithFrame:CGRectMake(250, 400, 40, 40)];
 HotView  * hotV =  [HotView showHotViewInVCTop:self withFrame:CGRectMake(250, 400, 40, 40)];
@@ -67,7 +67,7 @@ UIButton * button1 = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 50, 50)];
 
 
 
-``
+```
 
 ## HotView.h的介绍
 * @property(nonatomic, strong) HotViewDidClick clickBlock;        // 点击的时候调用的block
